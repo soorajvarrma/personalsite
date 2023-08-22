@@ -1,0 +1,54 @@
+.body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    width: 50%;
+    
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding: 120px;
+}
+
+.photo {
+    width: 50%;
+    color: green;
+    height: 54vh;
+}
+.hero > img{
+    width: 500px;
+}
+.education {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding: 20px;  
+    font-size:20px
+}
+.lead{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 2rem;
+}
+.exp {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 20px;
+}
+.image >img{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
